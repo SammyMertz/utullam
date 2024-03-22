@@ -1,0 +1,31 @@
+{
+  "name": "utullam",
+  "packageManager": "yarn@3.1.1",
+  "version": "1.8.2",
+  "license": "MIT",
+  "main": "./dist/es5cjs/index.js",
+  "module": "./dist/es6mjs/index.js",
+  "types": "./dist/es6mjs/index.d.ts",
+  "homepage": "https://github.com/SammyMertz/utullam.git",
+  "bugs": {
+    "url": "https://github.com/SammyMertz/utullam.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SammyMertz/utullam.git"
+  },
+  "keywords": [
+    "typescript",
+    "utils",
+    "fugit"
+  ],
+  "files": [
+    "package.json",
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "author": "JeniferLubowitz"
+}
